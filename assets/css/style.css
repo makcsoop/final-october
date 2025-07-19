@@ -476,7 +476,7 @@ body.block-scroll {
     height: 100vh;
     min-height: 820px;
     position: relative;
-    background: url("../images/main.jpg") center no-repeat;
+    background: url("{{ 'assets/images/main.jpg'|theme }}") center no-repeat;
     -webkit-background-size: cover;
     background-size: cover;
 }
@@ -534,7 +534,7 @@ body.block-scroll {
 /* Intro Slider*/
 
 #main1{
-    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("{{ '../images/main.jpg'|theme }}") center no-repeat;
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("/themes/final-october/assets/images/main.jpg") center/cover no-repeat;
     -webkit-background-size: cover;
     background-size: cover;
     width: 100%;
@@ -543,14 +543,14 @@ body.block-scroll {
 }
 
 #main2{
-    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("{{ '../images/main2.jpg'|theme }}") center no-repeat;
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("/themes/final-october/assets/images/main2.jpg") center/cover no-repeat;
     -webkit-background-size: cover;
     background-size: cover;
     width: 100%;
 }
 
 #main3{
-    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("{{ '../images/main3.jpg'|theme }}") center no-repeat;
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("/themes/final-october/assets/images/main3.jpg") center/cover no-repeat;
     -webkit-background-size: cover;
     background-size: cover;
     width: 100%;
@@ -558,21 +558,21 @@ body.block-scroll {
 
 @media (min-width: 768px) and (max-width: 991px) {
     #main1 {
-        background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("{{ '../images/main-middle.jpg'|theme }}") center no-repeat;
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("/themes/final-october/assets/images/main-middle.jpg") center/cover no-repeat;
     }
   }
 
   /* Планшеты (горизонтальные) и маленькие десктопы */
   @media (min-width: 992px) and (max-width: 1199px) {
-    .adaptive-image {
-        background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("{{ '../images/main-middle.jpg'|theme }}") center no-repeat;
+    #main1 {
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("/themes/final-october/assets/images/main-middle.jpg") center/cover no-repeat;
     }
   }
 
   /* Стандартные десктопы */
   @media (max-width: 768px) {
-    .adaptive-image {
-        background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("{{ '../images/main-middle.jpg'|theme }}") center no-repeat;
+    #main1 {
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("/themes/final-october/assets/images/main-small.jpg") center/cover no-repeat;
     }
   }
 
