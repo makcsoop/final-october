@@ -476,7 +476,7 @@ body.block-scroll {
     height: 100vh;
     min-height: 820px;
     position: relative;
-    background: url("{{ 'assets/images/main.jpg'|theme }}") center no-repeat;
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("/themes/final-october/assets/images/main.jpg") center/cover no-repeat;
     -webkit-background-size: cover;
     background-size: cover;
 }
