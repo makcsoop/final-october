@@ -11,6 +11,7 @@ description = "Default layout"
     <link rel="stylesheet" href="{{ 'assets/css/style.css'|theme }}">
     <link href="https://fonts.googleapis.com/css?family=Kaushan+Script|Montserrat:300i,400,700&amp;subset=cyrillic-ext" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap" rel="stylesheet">   <!-- мой шрифт -->
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"/> 
     <meta name="description" content="Professional freight forwarding, truckload & LTL shipping, cross-border logistics, and warehousing. Get competitive containerized freight rates & secure cargo insurance.">
     <title>Vertex</title>
     {% styles %}
@@ -25,15 +26,15 @@ description = "Default layout"
 
 
     <!--Scripts -->
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.mask/1.14.16/jquery.mask.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js" defer></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.mask/1.14.16/jquery.mask.min.js" defer></script>
     <script type="text/javascript">
         jQuery(function($){
             // Применяем маску ко всем полям с type="tel"
             $('input[type="tel"]').mask("+1 (999) 399-9999");
         });
     </script>
-    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js" defer></script>
     <script src="{{ 'assets/js/app.js'|theme }}"></script>
     {% framework extras %}
     {% scripts %}
