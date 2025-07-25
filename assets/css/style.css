@@ -618,34 +618,6 @@ body.block-scroll {
 
 }
 
-/* .slide h1 {
-    font-size: 2.5rem;
-    margin-bottom: 1rem;
-    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
-}
-
-.slide h2 {
-    font-size: 4rem;
-    margin-bottom: 2rem;
-    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
-} */
-
-/* .slide {
-    padding: 12px 30px;
-    background-color: #ff6600;
-    color: white;
-    text-decoration: none;
-    font-weight: bold;
-    border-radius: 5px;
-    margin-top: 20px;
-    text-transform: uppercase;
-    transition: background-color 0.3s;
-}
-
-.slide {
-    background-color: #e65c00;
-} */
-
 .navigation {
     position: absolute;
     bottom: 50px;
@@ -1222,19 +1194,6 @@ body.block-scroll {
 .card__inner {
     position: relative;
 }
-/*
-.card__inner:hover .card__img {
-}
-
-.card__inner:hover .card__img img {
-}
-
-.card__inner:hover .card__text {
-}
-
-.card__img {
-
-} */
 
 .card__img img {
     display: block;
