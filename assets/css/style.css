@@ -526,7 +526,7 @@ body.block-scroll {
 
 .intro__suptitle {
     margin-bottom: 20px;
-    font-family: 'Avenir', sans-serif;
+    font-family: 'Helvetica', sans-serif;
     font-size: 50px;
     color: #fff;
 }
@@ -1145,7 +1145,7 @@ body.block-scroll {
 }
 .section__title {
     font-size: 30px;
-    font-family: 'Avenir', sans-serif;
+    font-family: 'Helvetica', sans-serif;
     color: #333;
     text-transform: uppercase;
 }
@@ -1526,7 +1526,7 @@ body.block-scroll {
 }
 .reviews__title {
     font-size: 24px;
-    font-family: 'Avenir', sans-serif;
+    font-family: 'Helvetica', sans-serif;
     color: #333;
     text-transform: uppercase;
 }
