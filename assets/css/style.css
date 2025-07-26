@@ -2544,3 +2544,7 @@ button[type="submit"]:hover {
     }
 
 }
+.mirrored-icon {
+    transform: scaleX(-1);  /* Горизонтальное отражение */
+    display: inline-block;  /* Для корректной работы transform */
+  }
