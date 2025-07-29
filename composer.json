@@ -1,0 +1,22 @@
+{
+    "name": "october/vertex",
+    "type": "vertex",
+    "description": "Vertex  main",
+    "keywords": ["Vertex", "main", "demo", "theme"],
+    "authors": [
+        {
+            "name": "MAX",
+            "email": "makc.roslov@gmail.com",
+            "role": "Co-founder"
+        }
+    ],
+    "require": {
+        "php": ">=5.4",
+        "composer/installers": "~1.0"
+    },
+    "extra": {
+        "branch-alias": {
+            "dev-master": "1.0-dev"
+        }
+    }
+}
